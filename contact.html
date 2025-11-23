@@ -19,7 +19,7 @@
   </head>
   <body class="h-100 d-flex flex-column" id="body">
     <!-- navbar -->
-    <header>
+    <header class="mb-auto">
       <div class="navbar navbar-expand-lg nav-bg">
         <div class="container">
           <button
@@ -48,33 +48,24 @@
     </header>
 
     <main>
-      <div class="contact-div mt-3 my-md-5">
+      <div id="contact_b" class="my-auto">
         <div class="container">
-          <h2 class="text-center">Contact me</h2>
-          <form action="https://api.web3forms.com/submit" method="POST">
-            <input
-              type="hidden"
-              name="access_key"
-              value="61458052-302c-4334-a5f4-871c0b801ce8"
-            />
+          <form action="" id="contactMe">
+            <input type="text" class="form-control" placeholder="Name" />
             <input
               type="email"
-              name="e-posta"
-              placeholder="Email"
-              class="form-control mb-2"
+              class="form-control"
+              placeholder="Email Adress"
             />
             <textarea
-              rows="5"
-              class="form-control mb-2"
-              placeholder="Message"
               name="message"
+              id=""
+              class="form-control"
+              placeholder="Enter Message"
             ></textarea>
-
-            <div class="text-center">
-              <button type="submit" class="btn btn-outline-primary">
-                Send
-              </button>
-            </div>
+            <button type="submit" class="btn btn-outline-primary">
+              Submit
+            </button>
           </form>
         </div>
       </div>

@@ -46,24 +46,26 @@ body {
   margin-left: 0.5rem;
 }
 
-.contact-div {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 28rem;
-  width: 28rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: center;
+#contactMe {
+  max-width: 450px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0 auto;
 }
-@media (max-width: 768px) {
-  .contact-div {
-    height: 25rem;
-    width: 25rem;
-  }
+#contactMe textarea {
+  grid-column: 1 / span 2;
+  height: 10rem;
+  padding: 0.5rem;
+}
+#contactMe button {
+  grid-column: 1 / span 2;
+}
+
 
   #main-footer .footer-content {
+    position: sticky;
+    bottom: 0;
     display: block;
     text-align: center;
   }

@@ -10,4 +10,4 @@ Bu repo, Umutcan Cezar'ın kişisel portföy web sitesidir.
 
 ## Siteye Erişim
 
-- Canlı demo: [https://kullaniciadiniz.github.io/umutcan-portfolio/](https://kullaniciadiniz.github.io/umutcan-portfolio/)
+- Canlı demo: https://umutcancezar.github.io/portfolio/index.html
